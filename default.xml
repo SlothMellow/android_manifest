@@ -465,6 +465,6 @@
   </project>
   
     <!--vendor-->
-  <project path="vendor/SM" name="SlothMellow/android_vendor_SM" remote="SlothMellow" revision="sm6" /> 
+  <project path="vendor/sm6" name="SlothMellow/android_vendor_sm6" remote="SlothMellow" revision="sm6" /> 
 
 </manifest>

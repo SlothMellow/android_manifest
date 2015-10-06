@@ -459,12 +459,12 @@
   
   <!--SlothMellow REPOS-->
   <!--general-->
-  <project path="manifest" name="SlothMellow/android_manifest" remote="github" revision="m" />  
-   <project path="build" name="SlothMellow/android_build" remote="github" revision="m" >
+  <project path="manifest" name="SlothMellow/android_manifest" remote="github" revision="sm6" />  
+   <project path="build" name="SlothMellow/android_build" remote="github" revision="sm6" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
     <!--vendor-->
-  <project path="vendor/SM" name="SlothMellow/android_vendor_SM" remote="github" revision="m" /> 
+  <project path="vendor/SM" name="SlothMellow/android_vendor_SM" remote="github" revision="sm6" /> 
 
 </manifest>

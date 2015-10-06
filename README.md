@@ -12,7 +12,7 @@ $ mkdir ~/dev/SlothMellow
 $ cd ~/dev/SlothMellow
 Init core trees without any device/kernel/vendor :
 
-$ repo init -u https://github.com/SlothMellow/platform_manifest.git -b sm6
+$ repo init -u https://github.com/SlothMellow/android_manifest.git -b sm6
 sync repo
 
 $ repo sync

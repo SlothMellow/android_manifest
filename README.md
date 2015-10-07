@@ -13,9 +13,11 @@ $ cd ~/dev/SlothMellow
 Init core trees without any device/kernel/vendor :
 
 $ repo init -u https://github.com/SlothMellow/android_manifest.git -b sm6
-sync repo
+
+now  sync the repo
 
 $ repo sync
+
 Building
 
 After the sync is finished, please read the instructions from the Android site on how to build.

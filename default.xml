@@ -473,5 +473,5 @@
   <!--kernels-->
   <project path="kernel/moto/shamu" name="SlothMellow/android_kernel_moto_shamu" remote="SlothMellow" revision="sm6" />
   <!--hardware-->
-  <project path="hardware/ril" name="platform/hardware/ril" remote="SlothMellow" revision="sm6" />
+  <project path="hardware/ril" name="SlothMellow/android/hardware/ril" remote="SlothMellow" revision="sm6" />
 </manifest>

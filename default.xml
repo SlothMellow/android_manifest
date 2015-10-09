@@ -465,7 +465,7 @@
   
     <!--vendor-->
   <project path="vendor/sm6" name="SlothMellow/android_vendor_sm6" remote="SlothMellow" revision="sm6" />
-  <project path="vendor/motorola" name="android_vendor_motorola" remote="SlothMellow" revision="sm6" />
+  <project path="vendor/motorola" name="SlothMellow/android_vendor_motorola" remote="SlothMellow" revision="sm6" />
   
   <!--devices-->
   <project path="device/moto/shamu" name="SlothMellow/android_device_moto_shamu" remote="SlothMellow" revision="sm6" />

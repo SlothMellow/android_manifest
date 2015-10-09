@@ -18,11 +18,7 @@
            remote="aosp"
            sync-c="true"
            sync-f="true"
-           sync-j="8" />  
-           
-  <project path="build" name="SlothMellow/android_build" remote="sm6" revision="sm6" groups="pdk,tradefed" >        
-    <copyfile src="core/root.mk" dest="Makefile" />  
-  </project>            
+           sync-j=8
            
   <!--AOSP REPOS-->           
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -464,6 +460,8 @@
   <!--general-->
   <project path="manifest" name="SlothMellow/android_manifest" remote="SlothMellow" revision="sm6" />  
    <project path="build" name="SlothMellow/android_build" remote="SlothMellow" revision="sm6" >
+         <copyfile src="core/root.mk" dest="Makefile" />  
+  </project> 
   
     <!--vendor-->
   <project path="vendor/sm6" name="SlothMellow/android_vendor_sm6" remote="SlothMellow" revision="sm6" />
